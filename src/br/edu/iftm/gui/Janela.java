@@ -4,10 +4,15 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Janela extends JFrame {
+
+    public static Dimension screenSize(){
+        Dimension size = Toolkit.getDefaultToolkit().getScreenSize();
+        return size;
+    }
+
     public Janela(){
-        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-        int width = (int) screenSize.getWidth() - 100;
-        int hight = (int) screenSize.getHeight() - 100;
+        int width = (int) screenSize().getWidth() - 100;
+        int hight = (int) screenSize().getHeight() - 100;
         this.setBounds(50, 50, width, hight);
 
         CardLayout controleTelas = new CardLayout();
@@ -20,7 +25,7 @@ public class Janela extends JFrame {
         telas.add(loginPanel, "Tela Login");
         telas.add(principalPainel, "Tela Principal");
 
-        controleTelas.show(telas ,"Tela Principal");
+        controleTelas.show(telas ,"Tela Login");
 
         this.add(telas);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
