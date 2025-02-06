@@ -1,0 +1,14 @@
+[
+  {
+    "nome": "Valorant",
+    "caminho": "c:",
+    "icone": "iconeValorant.png",
+    "fundo":"fundoValorant.png"
+  },
+  {
+    "nome": "LiesOfP",
+    "caminho": "c:",
+    "icone": "iconeLiesOfP.png",
+    "fundo":"fundoLiesOfP.png"
+  }
+]

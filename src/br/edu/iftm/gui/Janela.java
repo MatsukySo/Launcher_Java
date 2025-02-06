@@ -19,13 +19,13 @@ public class Janela extends JFrame {
         JPanel telas = new JPanel(controleTelas);
 
         LoginPanel loginPanel = new LoginPanel(telas, this);
-        PrincipalPainel principalPainel = new PrincipalPainel(telas, this);
+        BlibliotecaPainel blibliotecaPainel = new BlibliotecaPainel(telas, this);
 
 
         telas.add(loginPanel, "Tela Login");
-        telas.add(principalPainel, "Tela Principal");
+        telas.add(blibliotecaPainel, "Tela Principal");
 
-        controleTelas.show(telas ,"Tela Login");
+        controleTelas.show(telas ,"Tela Principal");
 
         this.add(telas);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

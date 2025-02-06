@@ -56,7 +56,7 @@ public class LoginPanel extends TelaPanel{
     }
 
     public void executarBotao(ActionEvent e) {
-        if (caixaLogin.getText().equals("MatsukySo") && caixaSenha.getText().equals("983212,")) {
+        if (caixaLogin.getText().equals("") && caixaSenha.getText().equals("")) {
             trocarTela("Tela Principal");
             caixaSenha.setText("");
         }
