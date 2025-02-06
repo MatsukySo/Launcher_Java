@@ -1,28 +1,23 @@
 package br.edu.iftm.gui;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
-public class PrincipalPainel extends JPanel implements ActionListener {
-    private JPanel telas;
-    private CardLayout controleTelas;
+public class PrincipalPainel extends TelaPanel{
+    private JButton botaoPrincipal;
 
-    public PrincipalPainel(JPanel telas){
-        this.telas = telas;
-        this.controleTelas = (CardLayout) telas.getLayout();
+    public PrincipalPainel(JPanel telas, JFrame janela){
+        super(telas, janela);
+        JLabel mensagem = new JLabel("Tela Principal");
 
-        JLabel mensagem = new JLabel("Principal Painel");
-        JButton botao = new JButton("Voltar");
+        botaoPrincipal = new JButton("Voltar");
+        botaoPrincipal.addActionListener(this);
 
-        botao.addActionListener(this::actionPerformed);
         this.add(mensagem);
-        this.add(botao);
+        this.add(botaoPrincipal);
     }
 
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        controleTelas.show(telas ,"Tela Login");
+    public void executarBotao(ActionEvent e){
+        trocarTela("Tela Login");
     }
 }

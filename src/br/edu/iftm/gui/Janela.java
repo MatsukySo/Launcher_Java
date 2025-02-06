@@ -13,17 +13,19 @@ public class Janela extends JFrame {
         CardLayout controleTelas = new CardLayout();
         JPanel telas = new JPanel(controleTelas);
 
-        LoginPanel loginPanel = new LoginPanel(telas);
-        PrincipalPainel principalPainel = new PrincipalPainel(telas);
+        LoginPanel loginPanel = new LoginPanel(telas, this);
+        PrincipalPainel principalPainel = new PrincipalPainel(telas, this);
 
 
         telas.add(loginPanel, "Tela Login");
         telas.add(principalPainel, "Tela Principal");
 
-        controleTelas.show(telas ,"Tela Login");
+        controleTelas.show(telas ,"Tela Principal");
 
         this.add(telas);
-
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        this.setUndecorated(true);
         this.setVisible(true);
     }
 }
