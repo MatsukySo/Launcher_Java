@@ -3,12 +3,72 @@
     "nome": "Valorant",
     "caminho": "c:",
     "icone": "iconeValorant.png",
-    "fundo":"fundoValorant.png"
+    "fundo":"fundo_jogos.png"
   },
   {
-    "nome": "LiesOfP",
+    "nome": "Lies Of P",
     "caminho": "c:",
     "icone": "iconeLiesOfP.png",
-    "fundo":"fundoLiesOfP.png"
+    "fundo":"fundo_jogos.png"
+  },
+  {
+    "nome": "Pubg",
+    "caminho": "",
+    "icone": "iconePubg.png",
+    "fundo": "fundo_jogos.png"
+  },
+  {
+    "nome": "Cs2",
+    "caminho": "",
+    "icone": "iconeCs2.png",
+    "fundo": "fundo_jogos.png"
+  },
+  {
+    "nome": "Moving Out",
+    "caminho": "",
+    "icone": "iconeMovingOut.png",
+    "fundo": "fundo_jogos.png"
+  },
+  {
+    "nome": "Terraria",
+    "caminho": "",
+    "icone": "iconeTerraria.png",
+    "fundo": "fundo_jogos.png"
+  },
+  {
+    "nome": "Minecraft",
+    "caminho": "",
+    "icone": "iconeMinecraft.png",
+    "fundo": "fundo_jogos.png"
+  },
+  {
+    "nome": "Epic Games",
+    "caminho": "",
+    "icone": "iconeEpic.png",
+    "fundo": "fundo_jogos.png"
+  },
+  {
+    "nome": "Super Nintendo",
+    "caminho": "",
+    "icone": "iconeSnes.png",
+    "fundo": "fundo_jogos.png"
+  },
+  {
+    "nome": "Osu",
+    "caminho": "",
+    "icone": "iconeOsu.png",
+    "fundo": "fundo_jogos.png"
+  },
+  {
+    "nome": "Game Maker",
+    "caminho": "",
+    "icone": "iconeGameMaker.png",
+    "fundo": "fundo_jogos.png"
+  },
+  {
+    "nome": "Pcsx2",
+    "caminho": "",
+    "icone": "iconePcsx2.png",
+    "fundo": "fundo_jogos.png"
   }
 ]

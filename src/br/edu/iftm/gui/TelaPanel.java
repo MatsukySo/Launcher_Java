@@ -12,7 +12,7 @@ public class TelaPanel extends JPanel implements ActionListener {
     private JPanel telas;
     private CardLayout controleTelas;
     private JFrame janela;
-
+    private String iconeCorreto = "iconClose.png";
     public TelaPanel(JPanel telas, JFrame janela){
         this.telas = telas;
         this.controleTelas = (CardLayout) telas.getLayout();
@@ -20,7 +20,7 @@ public class TelaPanel extends JPanel implements ActionListener {
         this.setBackground(Color.decode("#282a36"));
         this.setLayout(null);
 
-        Imagem iconClose =  new Imagem("iconClose.png");
+        Imagem iconClose =  new Imagem(iconeCorreto);
         Imagem iconMinimize = new Imagem("iconMinimize.png");
 
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
