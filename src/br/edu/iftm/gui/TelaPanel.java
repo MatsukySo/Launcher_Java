@@ -12,7 +12,8 @@ public class TelaPanel extends JPanel implements ActionListener {
     private JPanel telas;
     private CardLayout controleTelas;
     private JFrame janela;
-    private String iconeCorreto = "iconClose.png";
+
+    private String icone = "iconClose.png";
     public TelaPanel(JPanel telas, JFrame janela){
         this.telas = telas;
         this.controleTelas = (CardLayout) telas.getLayout();
@@ -20,7 +21,7 @@ public class TelaPanel extends JPanel implements ActionListener {
         this.setBackground(Color.decode("#282a36"));
         this.setLayout(null);
 
-        Imagem iconClose =  new Imagem(iconeCorreto);
+        Imagem iconClose =  new Imagem(icone);
         Imagem iconMinimize = new Imagem("iconMinimize.png");
 
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
@@ -31,14 +32,14 @@ public class TelaPanel extends JPanel implements ActionListener {
 
         iconClose.addMouseListener(new MouseAdapter() {
             @Override
-            public void mouseClicked(MouseEvent e) {
+            public void mousePressed(MouseEvent e) {
                 janela.dispose();
             }
         });
 
         iconMinimize.addMouseListener(new MouseAdapter() {
             @Override
-            public void mouseClicked(MouseEvent e) {
+            public void mousePressed(MouseEvent e) {
                 janela.setState(JFrame.ICONIFIED);
             }
         });

@@ -1,74 +1,80 @@
 [
   {
     "nome": "Valorant",
-    "caminho": "c:",
+    "caminho": "C:\\Riot Games\\Riot Client\\RiotClientServices.exe --launch-product=valorant --launch-patchline=live",
     "icone": "iconeValorant.png",
-    "fundo":"fundo_jogos.png"
+    "fundo":"fundoValorant.png"
   },
   {
     "nome": "Lies Of P",
-    "caminho": "c:",
+    "caminho": "D:\\Games\\Lies of P\\LOP.exe",
     "icone": "iconeLiesOfP.png",
-    "fundo":"fundo_jogos.png"
+    "fundo":"fundoLiesOfP.png"
   },
   {
     "nome": "Pubg",
-    "caminho": "",
+    "caminho": "steam:\\rungameid\\578080",
     "icone": "iconePubg.png",
-    "fundo": "fundo_jogos.png"
+    "fundo": "fundoPubg.png"
   },
   {
     "nome": "Cs2",
-    "caminho": "",
+    "caminho": "steam:\\rungameid\\730",
     "icone": "iconeCs2.png",
-    "fundo": "fundo_jogos.png"
+    "fundo": "fundoCs2.png"
   },
   {
     "nome": "Moving Out",
-    "caminho": "",
+    "caminho": "com.epicgames.launcher:\\apps\\f919a1262081444fb28f0fdef68d6b14%3Aad66ba38abed4035917aab1b1a3a3607%3A8e29583ae4b44a21883038668f7e301e?action=launch&silent=true",
     "icone": "iconeMovingOut.png",
-    "fundo": "fundo_jogos.png"
+    "fundo": "fundoMovingOut.png"
   },
   {
     "nome": "Terraria",
-    "caminho": "",
+    "caminho": "steam://rungameid/105600",
     "icone": "iconeTerraria.png",
-    "fundo": "fundo_jogos.png"
+    "fundo": "fundoTerraria.png"
   },
   {
     "nome": "Minecraft",
-    "caminho": "",
+    "caminho": "C:\\Users\\mateu\\Documents\\SKlauncher.exe",
     "icone": "iconeMinecraft.png",
-    "fundo": "fundo_jogos.png"
+    "fundo": "fundoMinecraft.png"
   },
   {
     "nome": "Epic Games",
-    "caminho": "",
+    "caminho": "C:\\Program Files (x86)\\Epic Games\\Launcher\\Portal\\Binaries\\Win32\\EpicGamesLauncher.exe",
     "icone": "iconeEpic.png",
-    "fundo": "fundo_jogos.png"
+    "fundo": "fundoEpic.png"
   },
   {
     "nome": "Super Nintendo",
-    "caminho": "",
+    "caminho": "C:\\Users\\mateu\\Desktop\\SNES\\snes9x-x64.exe",
     "icone": "iconeSnes.png",
-    "fundo": "fundo_jogos.png"
+    "fundo": "fundoSnes.png"
   },
   {
     "nome": "Osu",
-    "caminho": "",
+    "caminho": "C:\\Users\\mateu\\AppData\\Local\\osu!\\osu!.exe",
     "icone": "iconeOsu.png",
-    "fundo": "fundo_jogos.png"
+    "fundo": "fundoOsu.png"
   },
   {
     "nome": "Game Maker",
-    "caminho": "",
+    "caminho": "C:\\Program Files\\GameMaker\\GameMaker.exe",
     "icone": "iconeGameMaker.png",
-    "fundo": "fundo_jogos.png"
+    "fundo": "fundoGameMaker.jpg"
   },
   {
     "nome": "Pcsx2",
-    "caminho": "",
+    "caminho": "C:\\Users\\mateu\\Desktop\\Aplicativos\\Pcsx2\\pcsx2-qt.exe",
     "icone": "iconePcsx2.png",
-    "fundo": "fundo_jogos.png"
+    "fundo": "fundoPcsx2.png"
+  },
+  {
+    "nome": "Aseprite",
+    "caminho": "C:\\Users\\mateu\\Desktop\\Aplicativos\\aseprite\\build\\bin\\aseprite.exe",
+    "icone": "iconeAseprite.png",
+    "fundo": "fundoAseprite.jpg"
   }
 ]

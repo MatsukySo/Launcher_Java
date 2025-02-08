@@ -1,6 +1,7 @@
 package br.edu.iftm.gui;
 
 import br.edu.iftm.gui.components.Botao;
+import br.edu.iftm.gui.components.Imagem;
 
 import javax.swing.*;
 import java.awt.*;
@@ -21,9 +22,17 @@ public class LoginPanel extends TelaPanel{
         Botao botaoLogin = new Botao("Fazer login",width/2 - 50,height/2 + 200, 150, 40);
         botaoLogin.addActionListener(this);
 
+        Imagem fundo = new Imagem("fundoLogin.png");
+        fundo.setBounds(0, 0, 1600, 900);
+
+
+        boxLogin();
         this.add(mensagem);
         this.add(botaoLogin);
-        boxLogin();
+        this.add(fundo);
+
+
+
     }
 
     JPasswordField caixaSenha;
@@ -41,9 +50,9 @@ public class LoginPanel extends TelaPanel{
         txtLogin.setBounds(width/2 - 42,height/2 + 110, 130, 20);
 
         caixaSenha = caixaSenha = new JPasswordField();
-
         caixaSenha.setBackground(Color.decode("#ced0d6"));
         caixaSenha.setBounds(width/2 - 43,height/2 + 170, 130, 20);
+
         JLabel txtSenha = new JLabel("Senha:");
         txtSenha.setBounds(width/2 - 42,height/2 + 152, 130, 20);
         txtSenha.setForeground(Color.decode("#ced0d6"));

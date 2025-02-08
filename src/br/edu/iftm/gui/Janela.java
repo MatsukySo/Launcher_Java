@@ -21,7 +21,6 @@ public class Janela extends JFrame {
         LoginPanel loginPanel = new LoginPanel(telas, this);
         BlibliotecaPainel blibliotecaPainel = new BlibliotecaPainel(telas, this);
 
-
         telas.add(loginPanel, "Tela Login");
         telas.add(blibliotecaPainel, "Tela Principal");
 
@@ -33,4 +32,5 @@ public class Janela extends JFrame {
         this.setUndecorated(true);
         this.setVisible(true);
     }
+
 }
